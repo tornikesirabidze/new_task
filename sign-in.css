@@ -1,18 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-
-}
 
 body {
     background-color: #F2F2F2;
     overflow: hidden;
-
 }
 
 .img1 {
@@ -37,7 +35,7 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     width: 518px;
-    height: 542px;
+    height: 562px;
     border: soli 5px black;
     border-radius: 40px;
 }
@@ -112,25 +110,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 32px;
 }
 
 .Sign_IN {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: n;
     width: 83px;
     height: 44px;
     border-radius: 32px;
+    background: white;
+    text-decoration: none !important;
+    
+
+    
 
 }
+
+
+
 
 .Sign_UP {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
     width: 83px;
     height: 44px;
     border-radius: 32px;
@@ -177,7 +182,7 @@ body {
 }
 
 .password {
-    width: 227px;
+    width: 470px;
     height: 48px;
     border: solid 0px rgb(171, 171, 171);
     border-radius: 12px;
@@ -187,6 +192,13 @@ body {
 
 
 }
+
+.Forgot{
+    margin-top: -16px;
+}
+
+
+
 
 .confirm {
     width: 227px;
@@ -247,33 +259,12 @@ span {
 /* SIGN IN */
 
 
-.Sign_IN1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 83px;
-    height: 44px;
-    border-radius: 32px;
-    background: white;
-    text-decoration: none;
 
 
 
-}
 
-.Sign_UP1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 83px;
-    height: 44px;
-    border-radius: 32px;
-
-}
-
-.password1 {
-    width: 227px;
+.password1{
+    width: 470px;
     height: 48px;
     border: solid 0px rgb(171, 171, 171);
     border-radius: 12px;
@@ -283,8 +274,8 @@ span {
 
 
 }
-
-.inpuns1_1 {
+    
+.inpuns1_1{
     display: flex;
     width: 470px;
     gap: 16px;
@@ -292,14 +283,23 @@ span {
 
 }
 
-.line_div {
+
+.inputs_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.line_div{
     width: 252px;
     height: 1px;
     background-color: #F2F2F2;
-
+    
 }
-
-.line_main {
+.line_main{
     display: flex;
     justify-content: center;
     align-items: center;
