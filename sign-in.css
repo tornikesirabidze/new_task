@@ -177,7 +177,7 @@ body {
     border: solid 0px rgb(171, 171, 171);
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding-left: 15px;
+    padding-left: 45px;
 
 }
 
@@ -234,7 +234,12 @@ body {
 
 }
 
+
 .Google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     width: 470px;
     height: 48px;
     background-color: white;
@@ -245,6 +250,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 }
+
+
 
 .lastP {
     color: #8F96A3;
@@ -304,4 +311,40 @@ span {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.google{
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.google_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.MAil_main{
+    position: relative;
+
+    
+
+}
+.mail_icon{
+
+    width: 21px;
+    height: 18px;
+    position: absolute;
+    margin: 15px;
+}
+
+
+/*  hover*/
+
+
+
+button:hover{
+    cursor: pointer;
 }
